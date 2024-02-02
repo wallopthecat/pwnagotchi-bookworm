@@ -59,7 +59,7 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
-        files: pwnagotchi-raspios-bookworm-${{ env.PWN_VERSION }}-arm64
+        files: pwnagotchi-raspios-bookworm-${{ env.PWN_VERSION }}-arm64.img
 
 ### I see no benefits to separating them into two jobs or reusable workflows but leave this as an example
   # release:
